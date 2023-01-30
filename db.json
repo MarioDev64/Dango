@@ -1,0 +1,58 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "title": "Tourmaline & Eucalyptus Bar Soap",
+            "title_size": 4, 
+            "price": 12,
+            "quantity": 1,
+            "selected": false,
+            "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        },
+        {
+            "id": 2,
+            "title": "Tourmaline & Argon Bar Soap",
+            "title_size": 4,
+            "price": 14,
+            "quantity": 1,
+            "selected": false,
+            "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        },
+        {
+            "id": 3,
+            "title": "Tourmaline & Tea Three Bar Soap",
+            "title_size": 4,
+            "price": 13,
+            "quantity": 1,
+            "selected": false,
+            "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        },
+        {
+            "id": 4,
+            "title": "Tourmaline & Unscented Bar Soap",
+            "title_size": 6,
+            "price": 12,
+            "quantity": 1,
+            "selected": false,
+            "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        },
+        {
+            "id": 5,
+            "title": "Tourmaline & Sweet Avena Bar Soap",
+            "title_size": 3,
+            "price": 12,
+            "quantity": 1,
+            "selected": false,
+            "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        },
+        {
+            "id": 6,
+            "title": "Tourmaline & Essence Bar Soap",
+            "title_size": 7,
+            "price": 11,
+            "quantity": 1,
+            "selected": false,
+            "description": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        }
+    ]
+}

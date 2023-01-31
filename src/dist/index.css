@@ -1467,6 +1467,10 @@ input:checked + .toggle-bg {
           appearance: none;
 }
 
+.auto-rows-auto {
+  grid-auto-rows: auto;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1477,6 +1481,10 @@ input:checked + .toggle-bg {
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-dango-card-grid {
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 }
 
 .flex-col {
@@ -1521,6 +1529,10 @@ input:checked + .toggle-bg {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {

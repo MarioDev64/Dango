@@ -117,10 +117,9 @@ const Home = () => {
           {isLoading && (
             <CircularLoading/>
           )}
-          <div className="flex flex-wrap gap-6 max-w-md:justify-center">
+          <div className="grid grid-cols-dango-card-grid auto-rows-auto gap-6 justify-items-center">
             {products?.map(product => (
-              <Card
-                id={`product${product.id}`}
+              <Card                id={`product${product.id}`}
                 key={product.id} 
                 product={product}
                 handleProductClick={() => setProductSelected(product)}

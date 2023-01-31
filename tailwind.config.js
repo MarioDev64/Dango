@@ -15,6 +15,10 @@ module.exports = {
       colors: {
         'dango-sky': '#43D4BF',
         ...defaultTheme.colors
+      },
+      gridTemplateColumns: {
+        'dango-card-grid': 'repeat(auto-fill, minmax(290px, 1fr))',
+        ...defaultTheme.gridTemplateColumns
       }
     },
   },

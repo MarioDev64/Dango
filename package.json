@@ -15,15 +15,16 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"json-server --watch db.json --port 3001 --delay 1000\"",
+    "start": "react-scripts start",
+    "startb": "concurrently \"react-scripts start\" \"json-server --watch db.json --port 3001 --delay 1000\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "tailwind": "npx tailwindcss -i ./src/index.css -o ./src/dist/index.css --watch",
+    "serve:data": "node server.js",
     "commit": "git-cz",
     "prepare": "husky install"
   },
-  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": [
       "react-app",
